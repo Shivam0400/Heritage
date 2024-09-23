@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Heritage Explorer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="bgtree.png" type="image/png">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <header>
+        <nav>
+            <h1>Digital Heritage Explorer</h1>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#tours">Virtual Tours</a></li>
+                <li><a href="#education">Cultural Education</a></li>
+                <li><a href="#marketplace">Marketplace</a></li>
+                <li><a href="#home">login</a></li>
+
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home">
+        <h2>Welcome to Indian Cultural Heritage Platform</h2>
+        <p>Explore, Learn, and Support India's rich cultural heritage through immersive experiences.</p>
+    </section>
+
+    <!-- Virtual Tours Section -->
+    <section id="tours">
+        <h2>Virtual Tours</h2>
+        <div class="tour">
+            <h3>Taj Mahal Virtual Tour</h3>
+            <p>Take an immersive virtual tour of the Taj Mahal and learn its history.</p>
+            <button onclick="startTour('tajMahal')">Start Tour</button>
+        </div>
+        <div class="tour">
+            <h3>Rajasthan Palaces Virtual Tour</h3>
+            <p>Explore the palaces of Rajasthan with interactive 360-degree views.</p>
+            <button onclick="startTour('rajasthanPalaces')">Start Tour</button>
+        </div>
+    </section>
+
+    <!-- Cultural Education Section -->
+    <section id="education">
+        <h2>Cultural Education</h2>
+        <p>Learn about traditional art, music, and crafts through our educational modules.</p>
+        <div class="course">
+            <h3>Classical Indian Music</h3>
+            <button onclick="startCourse('music')">Start Learning</button>
+        </div>
+        <div class="course">
+            <h3>Indian Pottery Making</h3>
+            <button onclick="startCourse('pottery')">Start Learning</button>
+        </div>
+    </section>
+
+    <!-- Marketplace Section -->
+    <section id="marketplace">
+        <h2>Marketplace</h2>
+        <p>Support local artisans by purchasing handcrafted goods.</p>
+        <div class="product">
+            <h3>Madhubani Painting</h3>
+            <button onclick="buyProduct('madhubani')">Buy Now</button>
+        </div>
+        <div class="product">
+            <h3>Pashmina Shawl</h3>
+            <button onclick="buyProduct('pashmina')">Buy Now</button>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Digital Heritage Explore</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

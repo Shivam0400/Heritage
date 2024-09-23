@@ -1,0 +1,94 @@
+/* General styles */
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+    background: url('heritage.jpeg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: rgba(44, 62, 80, 0.8); /* Semi-transparent background */
+    padding: 20px;
+    color: #fff;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section {
+    padding: 50px;
+    text-align: center;
+    flex: 1;
+    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent section background */
+    margin: 10px;
+    border-radius: 10px;
+}
+
+h2 {
+    color: #2c3e50;
+}
+
+p {
+    color: #34495e;
+}
+
+/* Buttons */
+button {
+    background-color: #e67e22;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #d35400;
+}
+
+/* Virtual Tours and Marketplace */
+.tour, .course, .product {
+    background-color: white;
+    border: 1px solid #ddd;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    display: inline-block;
+    width: 300px;
+}
+
+/* Footer */
+footer {
+    background-color: #cbdcec;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+}
